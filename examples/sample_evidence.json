@@ -1,0 +1,91 @@
+{
+  "evidence": [
+    {
+      "subject_type": "fund",
+      "subject_id": "F-A",
+      "source_url": "https://example.org/funds/f-a",
+      "source_type": "factsheet",
+      "text": "This synthetic fund invests in Greater China equities.",
+      "observed_at": "2025-12-31"
+    },
+    {
+      "subject_type": "manager",
+      "subject_id": "M-A",
+      "source_url": "https://example.org/managers/m-a",
+      "source_type": "official_site",
+      "text": "Example Alpha is an independent non-China manager.",
+      "observed_at": "2025-12-31"
+    },
+    {
+      "subject_type": "fund",
+      "subject_id": "F-B",
+      "source_url": "https://example.org/funds/f-b",
+      "source_type": "factsheet",
+      "text": "This synthetic product tracks an emerging markets ex-China index.",
+      "observed_at": "2025-12-31"
+    },
+    {
+      "subject_type": "manager",
+      "subject_id": "M-B",
+      "source_url": "https://example.org/managers/m-b",
+      "source_type": "company_registry",
+      "text": "Example Beta has a verified mainland parent.",
+      "observed_at": "2025-12-31"
+    },
+    {
+      "subject_type": "fund",
+      "subject_id": "F-C",
+      "source_url": "https://example.org/funds/f-c",
+      "source_type": "third_party_database",
+      "text": "The product describes a broad Asia Pacific investment region.",
+      "observed_at": "2025-12-31"
+    }
+  ],
+  "extractions": [
+    {
+      "subject_type": "fund",
+      "subject_id": "F-A",
+      "label": "Greater China",
+      "confidence": "High",
+      "evidence_url": "https://example.org/funds/f-a",
+      "evidence_text": "invests in Greater China equities",
+      "reason": "The factsheet states a Greater China investment mandate."
+    },
+    {
+      "subject_type": "manager",
+      "subject_id": "M-A",
+      "label": "Foreign",
+      "confidence": "High",
+      "evidence_url": "https://example.org/managers/m-a",
+      "evidence_text": "independent non-China manager",
+      "reason": "The official profile describes independent ownership."
+    },
+    {
+      "subject_type": "fund",
+      "subject_id": "F-B",
+      "label": "Ex-China",
+      "confidence": "High",
+      "evidence_url": "https://example.org/funds/f-b",
+      "evidence_text": "emerging markets ex-China index",
+      "reason": "The product mandate explicitly excludes China."
+    },
+    {
+      "subject_type": "manager",
+      "subject_id": "M-B",
+      "label": "Mainland-linked",
+      "confidence": "High",
+      "evidence_url": "https://example.org/managers/m-b",
+      "evidence_text": "verified mainland parent",
+      "reason": "A company registry record states ownership."
+    },
+    {
+      "subject_type": "fund",
+      "subject_id": "F-C",
+      "label": "Asia Watchlist",
+      "confidence": "Medium",
+      "evidence_url": "https://example.org/funds/f-c",
+      "evidence_text": "broad Asia Pacific investment region",
+      "reason": "Broad regional scope does not prove direct China exposure."
+    }
+  ]
+}

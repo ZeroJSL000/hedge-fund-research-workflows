@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hedge-fund-research-workflows"
+version = "0.1.0"
+description = "Illustrative, synthetic-data research workflows for NAV coverage, fund screening, and evidence provenance"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [{ name = "Shanglin Jiang" }]
+dependencies = []
+
+[project.scripts]
+hedge-workflows = "hedge_workflows.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+\n

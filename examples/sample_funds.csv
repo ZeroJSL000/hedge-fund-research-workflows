@@ -1,0 +1,7 @@
+fund_id,fund_name,ticker,product_description,geography,benchmark,manager_id,manager_name,manager_description,manager_location,aum_rank
+F-A,Synthetic Greater China Fund,TEST-A Equity,Greater China equity strategy,Greater China,Regional equity index,M-A,Example Alpha,Independent non-China manager,London,1
+F-B,Synthetic Ex-China Fund,TEST-B Equity,Emerging markets ex-China strategy,Emerging markets,Ex-China index,M-B,Example Beta,Verified mainland parent,Shanghai,2
+F-C,Synthetic Asia Fund,TEST-C Equity,Asia Pacific multi-strategy,Asia Pacific,Broad Asia index,M-C,Example Gamma,,Hong Kong,15
+F-D,Synthetic Japan Fund,TEST-D Equity,Japan market strategy,Japan,Japan equity index,M-D,Example Delta,Foreign parent,Tokyo,30
+F-E,Synthetic Unspecified Fund,TEST-E Equity,Flexible global strategy,Global,,M-E,Example Epsilon,,,3
+F-F,Synthetic General Fund,TEST-F Equity,Flexible strategy,Global,,M-F,Example Zeta,,,90

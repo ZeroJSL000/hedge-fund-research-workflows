@@ -1,0 +1,9 @@
+fund_id,manager_name,strategy,return_1y,return_3y,return_5y,sharpe_3y,volatility_3y,max_drawdown,last_nav_date,aum_usd
+P-A1,Synthetic Manager A,Equity,0.12,0.35,0.52,1.30,0.14,-0.18,2025-12-15,100000000
+P-A2,Synthetic Manager A,Equity,0.10,0.31,0.48,1.10,0.16,-0.20,2025-12-10,90000000
+P-A3,Synthetic Manager A,Equity,0.09,0.29,0.43,1.00,0.17,-0.22,2025-12-11,80000000
+P-B1,Synthetic Manager B,Macro,0.08,0.26,0.39,0.95,0.12,-0.12,2025-12-12,85000000
+P-B2,Synthetic Manager B,Macro,0.07,0.22,0.36,0.90,0.13,-0.14,2025-12-16,75000000
+P-B3,Synthetic Manager B,Macro,0.06,0.21,0.34,0.85,0.14,-0.16,2025-12-14,70000000
+P-OLD,Synthetic Manager C,Equity,0.10,0.20,0.30,1.00,0.15,-0.15,2025-05-01,50000000
+P-OUT,Synthetic Manager D,Equity,0.10,12.00,0.30,1.00,0.15,-0.15,2025-12-15,60000000
